@@ -95,12 +95,39 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen Sascha! Es freut mich das Du den Weg hierher gefunden hast.</h4>",
                             "newRow": true
                         },
                         {
                             "type": "button",
                             "name": { default: "ToDo-List" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Kalender" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Kontakte" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Notizen" },
                             "icon": "fa-file-alt",
                             "color": "wet-asphalt",
                             "page": "toDoPage",
@@ -136,6 +163,7 @@ export class GuiModel {
                                 "form": "ToDoForm"
                             }
                         }
+                        
                     ]
                 },
             ]
