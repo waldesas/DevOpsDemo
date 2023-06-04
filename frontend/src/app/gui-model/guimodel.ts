@@ -162,7 +162,63 @@ export class GuiModel {
                             "form": {
                                 "form": "ToDoForm"
                             }
-                        }
+                        },
+                                                {
+                            "id":   "person",
+                            "type": "text",
+                            "name": "Person",
+                            "required": true,
+                            "width": 2
+                        },
+                        {
+                            "id": "Gegenstand",
+                            "title": "StudyProgram",
+                            "url": "/Gegenstand",
+                            "formFieldList": [
+                                {
+                                    "id":   "name",
+                                    "type": "text",
+                                    "name": "Name",
+                                    "required": true,
+                                    "width": 2
+                                },
+                                {
+                                    "id":   "name",
+                                    "type": "text",
+                                    "name": "Name",
+                                    "required": true,
+                                    "width": 2
+                                },
+                                {
+                                    "id":   "gegenstände",
+                                    "type": "text",
+                                    "name": "Gegenstände",
+                                    "required": true,
+                                    "width": 2
+                                },
+                                {
+                                    "id": "beschreibung",
+                                    "type": "text",
+                                    "name": "Beschreibung",
+                                    "newRow": true,
+                                    "maxLength": 4000,
+                                    "height": 4,
+                                    "width": 2
+                                },
+                                {
+                                    "type": "deleteButton",
+                                    "name": "Delete"
+                                },
+                                {
+                                    "type": "cancelButton",
+                                    "name": "Cancel"
+                                },
+                                {
+                                    "type": "okButton",
+                                    "name": "Ok"
+                                }
+                            ]
+                        },
                         
                     ]
                 },
