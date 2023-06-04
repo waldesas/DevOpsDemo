@@ -12,4 +12,13 @@ public class FizzBuzzConverterTest {
         Assertions.assertEquals("10", fizzBuzz.convert(1));
 
     }
+    
+    //Zweiter Testlauf
+    @Test
+    public void fizzBuzzConverter2() {
+
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+        Assertions.assertEquals("100", fizzBuzz.convert(1));
+
+    }
 }
